@@ -1,0 +1,21 @@
+{
+  "name": "skland-daily-autosign",
+  "version": "1.0.0",
+  "description": "森空岛（明日方舟）每日自动签到脚本",
+  "type": "module",
+  "main": "sign.mjs",
+  "scripts": {
+    "login": "node login-phone.mjs",
+    "send-code": "node send-code.mjs",
+    "verify-code": "node verify-code.mjs",
+    "sign": "node sign.mjs"
+  },
+  "keywords": ["skland", "arknights", "attendance", "checkin"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "dependencies": {
+    "skland-kit": "^0.3.5"
+  }
+}

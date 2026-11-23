@@ -1,0 +1,7 @@
+node_modules/
+token.txt
+logs/
+*.log
+login-qr.png
+task.xml
+.data/
